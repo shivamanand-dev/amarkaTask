@@ -10,7 +10,7 @@ export const StyledChatBox = styled.section`
   position: relative;
 
   input {
-    width: 350px;
+    width: 380px;
     background: rgba(255, 255, 255, 0.08);
     border: none;
     padding: 0.75rem 1.25rem;
