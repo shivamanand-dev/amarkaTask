@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import SideBar from "./Components/Sidebar";
+import TabNavigation from "./Components/TabNavigation";
 
 function App() {
+  const [activeTab, setActiveTab] = useState(1);
+  const handleNavClick = (tab) => {
+    console.log(tab);
+    setActiveTab(tab);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <SideBar />
+      <div className="wrapper">
+        <p className="heading">Watch of the Yōkai Hunters</p>
+        <TabNavigation
+          tabs={[
+            { title: "Appears Safe" },
+            { title: "Medium Risk" },
+            { title: "Probably Rug / Scam" },
+          ]}
+          handleNavClick={handleNavClick}
+          activeTab={activeTab}
+        />
+      </div>
+    </>
   );
 }
 
