@@ -95,7 +95,8 @@
                 "status": "green"
             }
         ],
-        "isPoor": true
+        "isPoor": true,
+        "rating": 83
     },
     {
         "profilePic": "profile2",
@@ -173,7 +174,8 @@
                 "status": "green"
             }
         ],
-        "isPoor": false
+        "isPoor": false,
+        "rating": 89
     },
     {
         "profilePic": "profile3",
@@ -251,6 +253,7 @@
                 "status": "green"
             }
         ],
-        "isPoor": false
+        "isPoor": false,
+        "rating": 100
     }
 ]

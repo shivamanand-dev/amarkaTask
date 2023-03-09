@@ -158,4 +158,33 @@ export const StyledPairsCard = styled.section`
       gap: 1rem;
     }
   }
+  .rating {
+    justify-content: space-between;
+    flex-direction: column;
+    padding-right: 1rem;
+    .pentagon {
+      width: 56px;
+      height: 65px;
+      clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+      transform: rotate(180deg);
+      position: relative;
+      .ratingText {
+        transform: rotate(180deg);
+        margin: 0 auto;
+        position: absolute;
+        top: 10px;
+        width: 100%;
+        text-align: center;
+      }
+    }
+    .findBtn {
+      width: 52px;
+      height: 52px;
+      border: 1px solid #ffffff;
+      border-radius: 50%;
+      justify-content: center;
+      position: relative;
+      top: -20px;
+    }
+  }
 `;

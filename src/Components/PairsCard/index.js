@@ -2,7 +2,7 @@
 import React from "react";
 import { StyledPairsCard } from "./StyledPairsCard";
 
-import profile1 from "../../images/Profile1.png";
+import find from "../../images/find.svg";
 import bubblemaps from "../../images/bubblemaps.51902376 1.svg";
 import etherscan from "../../images/etherscan-logo-light-circle 1.svg";
 import medium from "../../images/Medium.svg";
@@ -93,7 +93,31 @@ const PairsCard = ({ data }) => {
           )}
         </div>
       </div>
-      <div className="rating"> </div>
+      <div className="rating flex">
+        <div
+          className="pentagon"
+          style={{ background: data.rating > 90 ? "#498D21" : "#c77802" }}
+        >
+          <p className="ratingText">
+            <span style={{ fontSize: "24px" }}>{data.rating}</span>
+            <br />
+            <span
+              style={{
+                fontSize: "10px",
+                color: "rgba(255, 255, 255, 0.5)",
+                position: "relative",
+                top: "-10px",
+              }}
+            >
+              /100
+            </span>
+          </p>
+        </div>
+
+        <div className="findBtn flex">
+          <img src={find} alt="" />
+        </div>
+      </div>
     </StyledPairsCard>
   );
 };
