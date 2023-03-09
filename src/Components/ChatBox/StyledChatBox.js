@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const StyledChatBox = styled.section`
-  max-width: 450px;
-  width: 450px;
+  max-width: 500px;
+  width: 500px;
   height: 720px;
   background: #1b2030;
   margin-top: 1rem;

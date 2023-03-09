@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledMessageCard = styled.section`
-  max-width: 380px;
+  max-width: 450px;
   width: 100%;
   margin: 0 auto;
   font-family: "Open Sans";
@@ -14,7 +14,7 @@ export const StyledMessageCard = styled.section`
     margin: 0;
   }
   .message {
-    max-width: 280px;
+    max-width: 340px;
     width: 100%;
     background: #ffffff;
     border-radius: 10px;
