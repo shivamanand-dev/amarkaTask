@@ -150,7 +150,7 @@ export const StyledPairsCard = styled.section`
         font-size: 12px;
       }
       .featureItem {
-        width: 180px;
+        width: 165px;
       }
     }
     .buttons {
