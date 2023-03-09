@@ -9,7 +9,6 @@ const TabNavigation = ({ tabs, handleNavClick, activeTab }) => {
           return (
             <li key={i} className={`${activeTab === i ? "active" : ""}`}>
               <p
-                href="#tab1"
                 onClick={() => {
                   handleNavClick(i);
                 }}

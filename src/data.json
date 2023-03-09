@@ -1,0 +1,256 @@
+[
+    {
+        "profilePic": "Profile1",
+        "name": "$BTYRANT",
+        "time": "1.5",
+        "profit": "235%+",
+        "subTitle": "Fable of the Baby Dragon Tyrant",
+        "stats": {
+            "liquidity": "$40.2K",
+            "marketCap": "$215.3K",
+            "volume": "$62.9K",
+            "supply": "220M"
+        },
+        "contract": "0xaa1db055d53f14f7e6a13e01097b17db620d3ef4",
+        "pair": "0x8ab4309019d7674c6112eb32698a30fdcba6a278",
+        "features": [
+            {
+                "name": "Renounced",
+                "status": "green"
+            },
+            {
+                "name": "Buy Tax (3%)",
+                "status": "green"
+            },
+            {
+                "name": "Sell Tax (3%)",
+                "status": "green"
+            },
+            {
+                "name": "Maximum Tax (25%)",
+                "status": "warning"
+            },
+            {
+                "name": "Multiple Owners",
+                "status": "green"
+            },
+            {
+                "name": "Novelty",
+                "status": "green"
+            },
+            {
+                "name": "Fake Renounce",
+                "status": "green"
+            },
+            {
+                "name": "Creator Tokens (3%)",
+                "status": "green"
+            },
+            {
+                "name": "Trade Modifier",
+                "status": "green"
+            },
+            {
+                "name": "Fresh Wallets (20%)",
+                "status": "warning"
+            },
+            {
+                "name": "Airdrop (0%)",
+                "status": "green"
+            },
+            {
+                "name": "-",
+                "status": "green"
+            },
+            {
+                "name": "Mintable",
+                "status": "green"
+            },
+            {
+                "name": "Contract Verified",
+                "status": "green"
+            },
+            {
+                "name": "-",
+                "status": "green"
+            },
+            {
+                "name": "-",
+                "status": "green"
+            },
+            {
+                "name": "Liquidity: Locked (1 Month)",
+                "status": "warning"
+            },
+            {
+                "name": "Liquidity Weight: (1 ETH)",
+                "status": "green"
+            },
+            {
+                "name": "-",
+                "status": "green"
+            },
+            {
+                "name": "-",
+                "status": "green"
+            }
+        ],
+        "isPoor": true
+    },
+    {
+        "profilePic": "profile2",
+        "name": "$SHIBINO",
+        "time": "2",
+        "profit": "104%+",
+        "subTitle": "Shibarium Casino",
+        "stats": {
+            "liquidity": "$20.2K",
+            "marketCap": "$101.1K",
+            "volume": "$10.9K",
+            "supply": "1B"
+        },
+        "contract": "0xaa1db055d53f14f7e6a13e01097b17db620d3ef4",
+        "pair": "0x8ab4309019d7674c6112eb32698a30fdcba6a278",
+        "features": [
+            {
+                "name": "Parameter",
+                "status": "green"
+            },
+            {
+                "name": "Parameter",
+                "status": "green"
+            },
+            {
+                "name": "Sell Tax (3%)",
+                "status": "green"
+            },
+            {
+                "name": "Parameter",
+                "status": "warning"
+            },
+            {
+                "name": "Multiple Owners",
+                "status": "green"
+            },
+            {
+                "name": "Novelty",
+                "status": "green"
+            },
+            {
+                "name": "Fake Renounce",
+                "status": "green"
+            },
+            {
+                "name": "Parameter",
+                "status": "green"
+            },
+            {
+                "name": "Trade Modifier",
+                "status": "green"
+            },
+            {
+                "name": "Fresh Wallets (20%)",
+                "status": "warning"
+            },
+            {
+                "name": "Airdrop (0%)",
+                "status": "green"
+            },
+            {
+                "name": "-",
+                "status": "green"
+            },
+            {
+                "name": "Mintable",
+                "status": "green"
+            },
+            {
+                "name": "Contract Verified",
+                "status": "green"
+            },
+            {
+                "name": "-",
+                "status": "green"
+            }
+        ],
+        "isPoor": false
+    },
+    {
+        "profilePic": "profile3",
+        "name": "$CENTRIC",
+        "time": "2",
+        "profit": "456%+",
+        "subTitle": "Central AI Tools",
+        "stats": {
+            "liquidity": "$20.2K",
+            "marketCap": "$101.1K",
+            "volume": "$10.9K",
+            "supply": "1B"
+        },
+        "contract": "0xaa1db055d53f14f7e6a13e01097b17db620d3ef4",
+        "pair": "0x8ab4309019d7674c6112eb32698a30fdcba6a278",
+        "features": [
+            {
+                "name": "Parameter",
+                "status": "green"
+            },
+            {
+                "name": "Parameter",
+                "status": "green"
+            },
+            {
+                "name": "Sell Tax (3%)",
+                "status": "green"
+            },
+            {
+                "name": "Parameter",
+                "status": "warning"
+            },
+            {
+                "name": "Multiple Owners",
+                "status": "green"
+            },
+            {
+                "name": "Novelty",
+                "status": "green"
+            },
+            {
+                "name": "Fake Renounce",
+                "status": "green"
+            },
+            {
+                "name": "Parameter",
+                "status": "green"
+            },
+            {
+                "name": "Trade Modifier",
+                "status": "green"
+            },
+            {
+                "name": "Fresh Wallets (20%)",
+                "status": "warning"
+            },
+            {
+                "name": "Airdrop (0%)",
+                "status": "green"
+            },
+            {
+                "name": "-",
+                "status": "green"
+            },
+            {
+                "name": "Mintable",
+                "status": "green"
+            },
+            {
+                "name": "Contract Verified",
+                "status": "green"
+            },
+            {
+                "name": "-",
+                "status": "green"
+            }
+        ],
+        "isPoor": false
+    }
+]

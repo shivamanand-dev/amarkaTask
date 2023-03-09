@@ -21,6 +21,10 @@ export const StyledTabNavigation = styled.section`
       width: 100%;
       text-align: center;
       padding: 0.5rem;
+      &:nth-child(2) {
+        border-right: 1px solid #3a3e5e;
+        border-left: 1px solid #3a3e5e;
+      }
       p {
         margin: 0;
         cursor: pointer;

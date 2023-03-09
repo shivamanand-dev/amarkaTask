@@ -1,7 +1,10 @@
 import { useState } from "react";
 import "./App.css";
+import PairsCard from "./Components/PairsCard";
 import SideBar from "./Components/Sidebar";
 import TabNavigation from "./Components/TabNavigation";
+
+import data from "./data.json";
 
 function App() {
   const [activeTab, setActiveTab] = useState(1);
@@ -9,6 +12,7 @@ function App() {
     console.log(tab);
     setActiveTab(tab);
   };
+  console.log(data);
   return (
     <>
       <SideBar />
@@ -23,6 +27,9 @@ function App() {
           handleNavClick={handleNavClick}
           activeTab={activeTab}
         />
+        {data.map((e) => {
+          return <PairsCard key={e.name} data={e} />;
+        })}
       </div>
     </>
   );

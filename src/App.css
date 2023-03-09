@@ -1,6 +1,7 @@
 body {
   background-color: #0d101a;
   color: #fff;
+  margin-bottom: 3rem;
 }
 
 .wrapper {
@@ -16,4 +17,10 @@ body {
   line-height: 63px;
   text-align: center;
   color: #f2f5e0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
