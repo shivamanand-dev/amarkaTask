@@ -14,13 +14,17 @@ import copy from "../../images/copy.svg";
 import Buttons from "../Buttons";
 
 const PairsCard = ({ data }) => {
-  const n = data.profilePic;
-  console.log(data.profilePic);
+  const profilePic = data.profilePic;
+
   return (
     <StyledPairsCard>
       <div className="profileDetails">
         <div>
-          <img src={require(`../../images/${n}.png`)} width={137} alt="" />
+          <img
+            src={require(`../../images/${profilePic}.png`)}
+            width={137}
+            alt=""
+          />
         </div>
         <div className="icons">
           <img src={computer} width={15} />
