@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { StyledTabNavigation } from "./StyledTabNavigation";
 
 const TabNavigation = ({ tabs, handleNavClick, activeTab }) => {
